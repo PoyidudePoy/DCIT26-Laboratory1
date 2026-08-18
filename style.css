@@ -1,0 +1,56 @@
+* {
+
+margin: 0;
+padding: 0;
+
+}
+header h1 {
+
+text-align: center;
+color: brown;
+padding: 1rem;
+margin: 0;
+}
+
+header {
+
+background-color: #ffe6bf;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Tahoma', Courier, monospace;
+
+
+}
+
+header img {
+
+    width: 20%;
+
+
+}
+
+.first {
+
+display: flex;
+flex-direction: column;
+font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+color: whitesmoke;
+background-color:rgb(192, 91, 78);
+padding: 2rem;
+align-items: center;
+
+}
+
+.first h1 {
+    
+padding: 1rem; 
+font-weight: 900;
+
+    
+}
+
+.first p {
+    font-weight: bolder;
+    font-size: larger;
+}   
