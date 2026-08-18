@@ -44,7 +44,7 @@ align-items: center;
 
 .first h1 {
     
-padding: 1rem; 
+padding: 2rem; 
 font-weight: 900;
 
     
@@ -54,3 +54,39 @@ font-weight: 900;
     font-weight: bolder;
     font-size: larger;
 }   
+
+
+footer {
+
+display: flex;
+flex-direction: column;
+background-color: rgb(182, 77, 173);
+font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+align-items: center;
+padding: 2rem;
+
+}
+
+footer p {
+
+text-decoration: none;
+font-size: larger;
+font-weight: bolder;
+
+}
+
+footer a {
+
+text-decoration: none;
+color: greenyellow;   
+font-weight: bolder;
+}
+
+footer a:hover {
+
+color:brown;
+transition: 1.0s;
+
+    
+}
